@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97f90e40-ceb1-4c81-ac10-7670c3ee2a09" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/HintDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/threeTrios_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/controller/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/controller/GameCoordinator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/controller/GameCoordinator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/controller/IController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/controller/IController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/AIPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/AIPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/CardConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/CardConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IGrid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IGrid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IModelFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/IModelFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ModelFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ModelFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ReadOnlyTriosModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ReadOnlyTriosModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ThreeTriosModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ThreeTriosModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/model/hw5/ViewModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/BoardPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/BoardPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/GameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/GameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/HandsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/HandsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/IGameView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/IGameView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/IViewFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/IViewFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cs3500/threetrios/view/ViewFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cs3500/threetrios/view/ViewFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/threeTrios.iml" beforeDir="false" afterPath="$PROJECT_DIR$/threeTrios.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Prom1se1124 &lt;williamlty@outlook.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Prom1se1124&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Prom1se1124/ThreeTrios.git&quot;,
+    &quot;accountId&quot;: &quot;4381e5b8-8c55-44ef-9926-d2172650a21e&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2o5LgmLMhG2ouyhqWfjVA7Oa41m" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.human human.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AIPlayerTest.executor": "Run",
+    "JUnit.ModelTest.executor": "Run",
+    "JUnit.ModelTest.testBoardConfig.executor": "Debug",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/林天翼/Desktop/Northeastern/Year 3/CS3500/Workspace/threeTrios/out/artifacts",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\林天翼\Desktop\Northeastern\Year 3\CS3500\Workspace\ThreeTrios" />
+      <recent name="C:\Users\林天翼\Desktop\Northeastern\Year 3\CS3500\Workspace\ThreeTrios\test" />
+      <recent name="C:\Users\林天翼\Desktop\Northeastern\Year 3\CS3500\Workspace\ThreeTrios\src\CS3500\ThreeTrios\model\hw5" />
+      <recent name="C:\Users\林天翼\Desktop\Northeastern\Year 3\CS3500\Workspace\ThreeTrios\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="CS3500.ThreeTrios" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97f90e40-ceb1-4c81-ac10-7670c3ee2a09" name="Changes" comment="" />
+      <created>1730154603478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1730154603478</updated>
+      <workItem from="1730154604426" duration="6522000" />
+      <workItem from="1730232908663" duration="4337000" />
+      <workItem from="1730271158929" duration="301000" />
+      <workItem from="1730311612834" duration="17856000" />
+      <workItem from="1730332135767" duration="2805000" />
+      <workItem from="1730489466552" duration="25000" />
+      <workItem from="1731292362670" duration="1850000" />
+      <workItem from="1731354440418" duration="1910000" />
+      <workItem from="1731458070132" duration="2891000" />
+      <workItem from="1731523606428" duration="14768000" />
+      <workItem from="1732154415630" duration="33000" />
+      <workItem from="1732215070180" duration="2282000" />
+      <workItem from="1732252492055" duration="7124000" />
+      <workItem from="1732320568545" duration="2210000" />
+      <workItem from="1732390489994" duration="2346000" />
+      <workItem from="1732392884933" duration="72000" />
+      <workItem from="1732392966339" duration="19689000" />
+      <workItem from="1732497454769" duration="3090000" />
+      <workItem from="1732579851861" duration="2719000" />
+      <workItem from="1733203921554" duration="221000" />
+      <workItem from="1733297330162" duration="991000" />
+      <workItem from="1733445401643" duration="4563000" />
+      <workItem from="1733453226198" duration="437000" />
+      <workItem from="1733453679159" duration="730000" />
+      <workItem from="1733466666646" duration="16000" />
+      <workItem from="1733470185597" duration="482000" />
+      <workItem from="1733501015953" duration="1779000" />
+      <workItem from="1733703846269" duration="13119000" />
+      <workItem from="1734135308634" duration="128000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1732580942545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732580942545</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1732581018088</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732581018088</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1732581148310</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732581148310</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+</project>

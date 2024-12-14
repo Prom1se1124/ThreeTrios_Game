@@ -1,0 +1,84 @@
+// todo list
+TODO: write model tests for new added methods
+
+Overview:
+This codebase contains the model, controller, textual view, and GUI view of a game of ThreeTrios.
+This game consists of two players, each placing cards on a grid. Each card has attack values,
+and when placed next to an opponent's card, it "battles" against it. if the placed card has a
+higher attack value than the card it is battling, the card it is battling "flips" and
+becomes one of the card placer's cards. That card can then battle with its surrounding cards.
+The battle phase continues until all eligible cards have been battled against.
+
+Quick Start:
+The functionality of this code relies on the startGame and placeCard methods in the model. startGame is
+used to initialize the game, which can be started with configuration files or passing in an already
+constructed grid and list of cards. Calls to placeCard are what places a card, which is the main move
+of the game.
+
+To see the GUI view, we have an example set up in the Main class inside of the main method. There are
+two views, one for each Player, as well as two controllers. Running the main method will allow you to
+play an example game on a blank 3x3 grid. The GUI displays the hands for each Player and the grid, but
+only the current player can actually place a card. A Player can play a card by selecting it and clicking
+on a non-occupied CardCell in the grid (a cell that can contain a card).
+
+Key Components:
+The model is what drives the back end of the game. Any updates to the state of the game are made by the
+model. The model consists of the interfaces, classes, and enums that make up a game of
+ThreeTrios. The enumerations restrict model implementation to only valid inputs. The Hand represents
+the cards eligible to be played by a player, and the grid represents the current configuration of the
+board. A grid contains cells, which can be either hole cells or card cells, and if it is a card cell,
+it can then contain a card, or not. Changes to the state of the game would be driven by the controller,
+which is not yet implemented.
+
+The view of this code is driven by a ReadOnly model. The client does not directly change the view, the view
+sends updates to the controller which then changes the state of the game through the model. The view
+exists to display the current state of the game. The current implementation contains a textual view and
+a GUI view. The GUI view can display a real view of any state of the game, and take in user clicks and
+convert them into indexes the model can understand.
+
+Strategies and Extra Credit:
+Five strategies for A.I. players were implemented:
+1. Most Flipped: finds the optimal move for the current player where their card flips the most of their opponent's
+cards on the grid. In the case of a tie, chooses the uppermost leftmost position with the card closest to 0 in hand
+index.
+2. Corners: finds the best defended card for each corner, i.e. the card less likely to get flipped by opponent's
+cards. In the case of a tie, chooses the uppermost leftmost position with the card closest to 0 in hand index. In the
+case of failure (when all corners are occupied or holes), returns an empty list of coordinates (card index, row,column)
+3. MinMax strategy: finds the best card placement that maximizes the player's score while minimizing the opponent's
+potential score if they were using the Most Flipped strategy. In the case of a tie, chooses the uppermost leftmost
+position with the card closest to 0 in hand index.
+4. Best Defense: finds the card that is the least likely to get flipped by any of the opponent's cards in hand for any
+spot on the grid. In the case of a tie, chooses the uppermost leftmost position with the card closest to 0 in hand
+index.
+5. Stacking Strategies: these are linkage strategies where if the first strategy fails, there is a second fallback
+strategy that will be called upon instead. In the examples in the test file, corner strategy was run and when failed
+most flipped strategy was called as fallback.
+Testing: these strategies were tested in the StrategyTest file in the test folder using mock models
+that lied about the correct positions and logged which coordinates were being checked, as well as checking if
+the choose spot methods in each strategy produced the correct coordinates (card index, row and column).
+
+
+Source Organization:
+The configuration files are found inside of their own folder called Config.
+The tests are found in the test directory, organized by classes for what part of the game that is
+being tested.
+The source code can be found in the src directory. All code is further delegated between the
+controller, model, view, strategies, and the Main class, which contains the main method to run the game.
+The strategies folder contains strategies for an AI player to play the game.
+
+Changes from HW5:
+1) Code that did not have an interface, such as the grid and the hand, now have an interface.
+2) The FileReader code has been moved into the controller package since this is something the controller
+will handle (but is not yet fully implemented).
+3) Added more observation methods in the model, and created a ReadOnlyThreeTriosGame interface that
+includes only observation methods.
+4) Made slight changes to names for methods, and edited some code to prohibit mutation.
+5) Documented the grid in the grid interface
+6) Handled Player switching turns and added methods to Player Interface
+7) Change method lengths that were too long
+8) made necessary fields final (the grid and hands)
+
+Changes from HW6
+1) Creation of Features interfaces for the player change turn and mouse listening
+2) Fixing up the the GUI with the placing of the numbers on cards
+3) Modified the view so that the Red Player cannot select a Blue Player's card, and vice versa

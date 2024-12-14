@@ -1,0 +1,25 @@
+CardZ 3 6 9 4
+CardB 4 6 9 1
+CardN 1 1 1 1
+CardC 8 2 6 A
+CardN 1 1 1 1
+CardD A 1 5 4
+CardE 5 6 4 5
+CardN 1 1 1 1
+CardN 1 1 1 1
+CardF 4 1 2 3
+CardG 1 2 3 4
+CardN 1 1 1 1
+CardH 4 3 2 1
+CardI 9 4 3 5
+CardJ 6 3 2 8
+CardK 4 3 9 5
+CardN 1 1 1 1
+CardL 5 7 8 3
+CardM 2 5 A A
+CardN 6 6 6 6
+CardN 6 6 6 6
+CardN 1 1 1 1
+CardN 1 1 1 1
+CardN 1 1 1 1
+
